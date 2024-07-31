@@ -239,7 +239,8 @@ export const DropDown = ({
         >
           <span className={styles.value}>
             {multiple
-              ? model?.map(( option, index ) => (
+              ? Array.isArray(model) 
+                  ? model?.map(( option, index ) => (
                   <button
                     key={ index }
                     onClick={() => {
@@ -251,6 +252,7 @@ export const DropDown = ({
                     <span className={styles["remove-btn"]}>&times;</span>
                   </button>
                 ))
+                : ""
               : model?.label}
           </span>
           {clearButton}
