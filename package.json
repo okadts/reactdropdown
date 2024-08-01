@@ -2,7 +2,7 @@
   "name": "@okadts/reactdropdown",
   "author": "Oka Antara",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.5",
   "type": "module",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
@@ -29,6 +29,7 @@
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.6.1",
+    "@okadts/reactdropdown": "github:okadts/reactdropdown",
     "@storybook/addon-essentials": "^8.2.6",
     "@storybook/addon-interactions": "^8.2.6",
     "@storybook/addon-links": "^8.2.6",

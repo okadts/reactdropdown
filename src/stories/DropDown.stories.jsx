@@ -1,7 +1,7 @@
 import { useArgs } from '@storybook/preview-api';
 import { useEffect } from 'react';
 import { fn } from '@storybook/test';
-import { DropDown } from '../../lib/DropDown.tsx'
+import { DropDown } from '@okadts/reactdropdown';
 
 const options = [
   { label: "Dog", value: 1 },
