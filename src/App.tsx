@@ -1,7 +1,6 @@
 import { useState } from 'react'
-// import { DropDown, DropDownOption, OptionsComponentProps } from '../lib/DropDown.tsx'
-import { DropDown, DropDownOption, OptionsComponentProps } from '@okadts/reactdropdown'
-import { highlightText } from '@okadts/reactdropdown'
+import type { DropDownOption, OptionsComponentProps } from '@okadts/reactdropdown'
+import { DropDown, highlightText } from '@okadts/reactdropdown'
 import './App.css'
 
 const options: DropDownOption[] = [
