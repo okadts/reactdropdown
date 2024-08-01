@@ -86,4 +86,4 @@ function App() {
 export default App
 ```
 
-- Current vite broken when try to install using "npm install @okadts/reactdropdown", perhaps will be fix in the future
+- Current vite broken when try to install using "npm install okadts/reactdropdown", perhaps will be fix in the future
