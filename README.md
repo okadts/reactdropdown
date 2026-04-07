@@ -1,5 +1,7 @@
 # React + TypeScript + Dropdown
 
+If using this repo, please update first
+
 First attemp to create react dropdown select plugin with portal support and custom list option component
 
 Component Features:
